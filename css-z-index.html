@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CSS z index</title>
+    <style>
+      .one {
+        height: 400px;
+        text-align: center;
+        width: 400px;
+        background-color: aqua;
+        border: 2px solid black;
+        font-size: 300px;
+        position: relative;
+        top: 200px;
+        z-index: 2;
+      }
+      .two {
+        height: 400px;
+        text-align: center;
+        width: 400px;
+        background-color: greenyellow;
+        border: 2px solid black;
+        font-size: 300px;
+        position: relative;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one">1</div>
+    <div class="two">2</div>
+  </body>
+</html>

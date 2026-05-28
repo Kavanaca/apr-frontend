@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <title>css pseudo learning</title>
+
+  <style>
+    .hello {
+      background-color: salmon;
+      width: 100px;
+      height: 50px;
+    }
+
+    .hello:hover {
+      background-color: lightblue;
+    }
+    p::first-line {
+      font-size: 30px;
+      color: sandybrown;
+    }
+    p::first-letter {
+      font-size: 45px;
+      font-style: italic;
+    }
+    p::selection {
+      background-color: yellow;
+    }
+
+    li:nth-child(3n + 1) {
+      background-color: yellow;
+    }
+  </style>
+  <body>
+    <button class="hello">Hello</button>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nobis quam
+      earum culpa atque, ducimus ratione, odit mollitia eveniet accusamus itaque
+      a dignissimos eum iure hic, minus nisi ipsam repellat? Lorem ipsum dolor
+      sit amet consectetur adipisicing elit. Illo nobis quam earum culpa atque,
+      ducimus ratione, odit mollitia eveniet accusamus itaque a dignissimos eum
+      iure hic, minus nisi ipsam repellat?
+    </p>
+
+    <ul>
+      <li>Kohli number 18</li>
+      <li>Sharma number is 45</li>
+      <li>Watson number is 38</li>
+      <li>Dhoni number is 7</li>
+      <li>Sachin number is 49</li>
+      <li>Kohli number 18</li>
+      <li>Sharma number is 45</li>
+      <li>Watson number is 38</li>
+      <li>Dhoni number is 7</li>
+      <li>Sachin number is 49</li>
+    </ul>
+  </body>
+</html>
